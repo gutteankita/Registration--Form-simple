@@ -1,0 +1,83 @@
+/* Write your CSS code here */
+
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.registration-form {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 15px;
+  height: 400px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.heading {
+  font-size: 90px;
+  color: #ea580c;
+  margin-bottom: 30px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.input {
+  outline: none;
+  font-size: 25px;
+  color: #9aa5b1;
+  padding: 10px;
+}
+.label {
+  font-size: 24px;
+  color: #475569;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.submit-btn {
+  background-color: #ea580c;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  color: #fef2f4;
+  height: 48px;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+  .registration-form {
+    width: 80%;
+  }
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.img {
+  height: 90px;
+}
+.submitted {
+  font-weight: 500;
+  color: #475569;
+}
+
+.error {
+  color: #ff0b37;
+}
